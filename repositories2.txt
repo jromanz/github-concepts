@@ -1,0 +1,9 @@
+
+
+git init
+git status
+git clone https://github.com/jromanz/github-concepts.git
+git add .
+git commit -m "Commit para subir archivos"
+git push -f origin master
+
