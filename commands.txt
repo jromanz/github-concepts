@@ -1,7 +1,21 @@
 
+git config --global user.name "Julio Román"
+git config --global user.email "jromanz@gmail.com"
+git config --global core.editor "sublime_text.exe -w"
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C tu@correo.com
+
+eval `ssh-agent -s`
+ssh-agent -s # para Windows
+ssh-add ~/.ssh/id_rsa
+clip < ~/.ssh/id_rsa.pub # copia clave publica ssh
+#Agrega tu clave SSH pública a GitHub
+
+
 git init
 git status
 git log
 git switch master
 git add .
 git commit -m "Primer commit"
+ssh -T git@github.com #prueba autentificación
