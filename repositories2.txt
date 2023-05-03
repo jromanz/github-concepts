@@ -7,3 +7,11 @@ git add .
 git commit -m "Commit para subir archivos"
 git push -f origin master
 
+
+git branch github-concepts  #crea nueva rama
+git branch #lista ramas
+git checkout main
+git checkout -b otra-rama #crea y cambia nueva rama
+
+git switch main #cambia de rama
+git switch -c nueva-rama #crea y cambia de rama
