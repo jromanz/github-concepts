@@ -1,6 +1,17 @@
 
 git init
+git status
+git remote -v
 git branch -M main
+git remote add github-concepts https://github.com/jromanz/github-concepts.git
 git clone https://github.com/jromanz/github-concepts.git
-git pull -f origin main
+git fetch github-concepts main
+git pull -f github-concept main
 
+#creating files
+
+git add .
+git status
+git commit -m "first file"
+git log --oneline
+git push github-concepts main
