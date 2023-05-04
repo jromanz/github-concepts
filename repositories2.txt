@@ -15,3 +15,18 @@ git checkout -b otra-rama #crea y cambia nueva rama
 
 git switch main #cambia de rama
 git switch -c nueva-rama #crea y cambia de rama
+
+
+
+
+git remote rm origin
+git remote -v
+git remote add origin https://github.com/jromanz/github-concepts.git
+git push -u origin main
+
+
+
+
+
+
+
