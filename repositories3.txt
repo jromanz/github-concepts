@@ -1,0 +1,22 @@
+
+# PULL REQUEST: propuesta de cambios a un proyecto que nos interese 
+
+1.- hacer fork al proyecto principal (desde la cuenta remota)
+2.- clonar dicho proyecto en tu local
+3.- entrar a la carpeta y crear nueva rama
+    git checkout -b "rama-dev"
+    git branch
+4.- realizar modificaciones
+    git add --all
+    git commit -m "mis aportes"
+    git branch
+5.- crear rama en la cuenta remota que hara el pull request
+    git push origin "rama-dev"
+6.- posicionarte en la rama, darle click en contribuir 
+7.- open pull request y create pull request
+8.- desde el proyecto te notifican por correo sobre la contribución
+9.- revisas los cambios añadidos, las comparaciones 
+10.- si lo apruebas, le das click en merge pull request -> confirm merge
+    
+    
+
